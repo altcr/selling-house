@@ -33,3 +33,24 @@ body {
 .slick-dots > ul > .slick-active > div {
   background-color: var(--background);
 }
+
+@media screen and (max-width: 1010px) {
+  .contact-bg{
+    width: 230px;
+    height: 130px;
+  }
+}
+
+@media screen and (min-width: 1010px) and (max-width: 1400px){
+  .contact-bg{
+    width: 330px;
+    height: 200px;
+  }
+}
+
+/*@media screen and (min-width: 1280px) {
+  .contact-bg{
+    width: 100px;
+    height: 80px;
+  }
+}*/

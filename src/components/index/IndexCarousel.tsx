@@ -83,7 +83,7 @@ const IndexCarousel = () => {
                         <div className="my-5">
                             <font className="text-lg font-semibold">Villa on Hollywood Boulevard</font>
                             <font className="flex flex-row text-xs font-medium text-gray-400 gap-1 items-center mt-2"><FaLocationDot className="" color="#1DB2FF" size={18} />2. Anafartalar, ŞEHZADELER/MANİSA</font>
-                            <div className="w-full h-auto flex flex-row justify-between my-4 items-center">
+                            <div className="w-full h-auto flex flex-row max-lg:flex-col justify-between my-4 min-lg:items-center">
                                 <div className="h-full flex flex-col gap-2 justify-center">
                                     <div className="flex flex-row">
                                         <font className="flex flex-row text-sm gap-1"><MdMeetingRoom className="mt-[-2px]" color="#1DB2FF" size={22} />4</font>
@@ -91,11 +91,11 @@ const IndexCarousel = () => {
                                         <font className="flex flex-row text-sm ml-4 gap-1"><LuGitCompareArrows className="" color="#1DB2FF" size={19} />145</font>
                                     </div>
                                 </div>
-                                <div className="min-w-[20%] h-full flex flex-col gap-5 justify-center">
+                                <div className="min-w-[20%] h-full flex flex-col gap-5 justify-center max-lg:mt-5">
                                     <font className="flex flex-row text-lg font-semibold gap-1 items-center">1.250.500<FaTurkishLiraSign className="mt-[-2px]" color="#1DB2FF" size={16} /></font>
                                 </div>
                             </div>
-                            <font className="text-xs text-gray-400 font-light">Eklenme Tarihi: 15 Aralık 2024</font>
+                            <font className="w-full text-xs text-gray-400 font-light">Eklenme Tarihi: 15 Aralık 2024</font>
                         </div>
                     </div>
                 )
