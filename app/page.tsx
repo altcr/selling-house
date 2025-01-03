@@ -1,8 +1,8 @@
-import Image from "next/image";
 import Slider from "@/src/components/index/Slider";
 import IndexCarousel from "@/src/components/index/IndexCarousel";
 import FavCities from "@/src/components/index/FavCities";
 import ContactUs from "@/src/components/index/ContactUs";
+import Partners from "@/src/components/index/Partners";
 
 export default function Home() {
   return (
@@ -11,6 +11,7 @@ export default function Home() {
       <IndexCarousel />
       <FavCities />
       <ContactUs />
+      <Partners />
     </main>
   );
 }

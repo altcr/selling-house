@@ -20,12 +20,12 @@ const ContactUs = () => {
         </div>
         <div className="w-[70%] px-3 max-lg:px-1 h-auto mt-16 mx-auto flex flex-row max-lg:flex-col gap-10">
             <div className="flex w-[45%] max-lg:w-[80%] flex-col">
-                <font className="text-gray-100 font-medium text-xl max-lg:text-md">Email</font>
-                <font className="text-white font-semibold text-3xl max-lg:text-2xl">info@site.com</font>
+                <font className="text-gray-100 font-medium text-xl max-lg:text-sm">Email</font>
+                <font className="text-white font-semibold text-3xl max-lg:text-xl">info@site.com</font>
             </div>
             <div className="flex w-[40%] max-lg:w-[80%] flex-col">
-                <font className="text-gray-100 font-medium text-xl max-lg:text-md">Phone Number</font>
-                <font className="text-white font-semibold text-3xl max-lg:text-2xl">+90 555 55 55</font>
+                <font className="text-gray-100 font-medium text-xl max-lg:text-sm">Phone Number</font>
+                <font className="text-white font-semibold text-3xl max-lg:text-xl">+90 555 55 55</font>
             </div>
         </div>    
         <Image src={CONTACTSVG} width={350} height={150} alt='contact-us' className="contact-bg" style={{position: "absolute", right: 0, bottom: -15}} />

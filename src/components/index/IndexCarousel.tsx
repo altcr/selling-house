@@ -84,7 +84,7 @@ const IndexCarousel = () => {
                             <font className="text-lg font-semibold">Villa on Hollywood Boulevard</font>
                             <font className="flex flex-row text-xs font-medium text-gray-400 gap-1 items-center mt-2"><FaLocationDot className="" color="#1DB2FF" size={18} />2. Anafartalar, ŞEHZADELER/MANİSA</font>
                             <div className="w-full h-auto flex flex-row max-lg:flex-col justify-between my-4 min-lg:items-center">
-                                <div className="h-full flex flex-col gap-2 justify-center">
+                                <div className="h-full flex flex-col max-lg:flex-row gap-2 justify-center">
                                     <div className="flex flex-row">
                                         <font className="flex flex-row text-sm gap-1"><MdMeetingRoom className="mt-[-2px]" color="#1DB2FF" size={22} />4</font>
                                         <font className="flex flex-row text-sm ml-4 gap-1"><FaBath className="" color="#1DB2FF" size={18} />1</font>

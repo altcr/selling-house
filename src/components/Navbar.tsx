@@ -2,10 +2,12 @@
 import React, { useState } from 'react';
 import Link from 'next/link';
 import font from "next/font";
+import Image from "next/image";
 import { RiMenuFoldFill, RiMenuFold2Fill } from "react-icons/ri";
 import type { DrawerProps } from 'antd';
 import { Drawer, Divider } from 'antd';
 import { FaFacebook, FaInstagram, FaTwitter, FaPhone } from "react-icons/fa6";
+import LOGO from "@/public/logo.png";
 
 const Navbar = () => {
     const [open, setOpen] = useState(false);
@@ -22,13 +24,13 @@ const Navbar = () => {
   return (
     <nav className="flex flex-1 bg-white p-5 h-[80px] justify-between items-center">
         <Link href={"/"}>
-            <font>LOGO</font>
+            <Image src={LOGO} width={150} height={50} alt='Logo' />
         </Link>
         <div className="flex max-lg:hidden gap-5 justify-center items-center">
             <Link href={"/"}>
                 <font className="font-semibold text-sm px-7 py-3 hover:text-background rounded-full hover:bg-[#bce5f9e6] transition ease-in-out duration-300">HOME</font>
             </Link>
-            <Link className="font-semibold text-sm" href={"/"}>
+            <Link className="font-semibold text-sm" href={"/profile"}>
                 <font className="font-semibold text-sm px-7 py-3 hover:text-background rounded-full hover:bg-[#bce5f9e6] transition ease-in-out duration-300">PROJECTS</font>
             </Link>
             <Link className="font-semibold text-sm" href={"/"}>
@@ -91,7 +93,7 @@ const Navbar = () => {
             }}
             >
             <Link href={"/"}>HOME</Link>
-            <Link href={"/"}>PROJECTS</Link>
+            <Link href={"/profile"}>PROJECTS</Link>
             <Link href={"/"}>CONTACT</Link>
         </Drawer>
     </nav>
